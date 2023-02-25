@@ -173,3 +173,14 @@ header a{
 }
 
 /* section 2 end */
+/* footer start */
+footer{
+    text-align: center;
+    padding:15px;
+    color: gray;
+    font-weight: bold;
+}
+footer span{
+    color: var(--primary-color);
+}
+/* footer end */
