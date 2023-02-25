@@ -138,3 +138,38 @@ header a{
 
 }
 /* right section end */
+
+/* section 2 */
+.section-2{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+    align-items: center;
+}
+.card-container{
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 10px 5px 26px rgb(50, 47, 47);
+    overflow: hidden;
+    text-align: center;
+}
+.card-container h1{
+    color: rgb(136,136,136);
+}
+.image-container{
+    width: 100%;
+    height:450px;
+    overflow: hidden;
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s ease-in-out;
+}
+.image-container img:hover{
+    transform: scale(1.1) rotate(-5deg);
+
+}
+
+/* section 2 end */
